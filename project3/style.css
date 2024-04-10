@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:radial-gradient(rgb(227,83,227),rgb(74,102,241));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 4px 7px 5px ;
+    border-radius: 5px;
+}
+.left, .right{
+  
+    height: 35vh;
+    width: 15vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+.left{
+    background-color: deeppink;
+}
+.right{
+    background-color: goldenrod;
+}
+#date{
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 3px rgb(63, 61, 61);
+}
+#day,#year{
+    font-size: 30px;
+    text-shadow: 1px 1px rgb(59, 58, 58);
+
+}
+#time{
+    font-size: 20px;
+}
+#month{
+    font-size: 40px;
+    font-weight: 550;
+    color: rgb(21, 7, 176);
+    text-shadow: 1px 2px rgb(72, 71, 71);
+    margin: 5px;
+}
