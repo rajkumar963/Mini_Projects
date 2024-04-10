@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid rgb(34, 255, 0);
+            background-color: aqua;
+            height: 500px;
+            width:100%;
+            display: flex;
+            display: grid;
+            
+        }
+        .container div:nth-child(even)
+{
+    background-color: yellow;
+
+}
+        
+        .normal{
+            background-color: blue;
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+            margin: 5px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item normal"></div>
+        <div class="item normal  "></div>
+        <div class="item normal "></div>
+        <div class="item normal "></div>
+        <div class="item normal"></div>
+        <div class="item normal"></div>
+        <div class="item normal"></div>
+        <div class="item normal"></div>
+    </div>
+</body>
+</html>

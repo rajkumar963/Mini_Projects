@@ -1,0 +1,8 @@
+body{
+    background-color: aquamarine;
+}
+.col h1:nth-child(odd)
+{
+    background-color: yellow;
+
+}
