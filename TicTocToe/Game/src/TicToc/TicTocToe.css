@@ -1,0 +1,56 @@
+.container{
+    text-align: center;
+    margin: 0;
+}
+
+.title{
+    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title span{
+    color: aqua;
+
+}
+
+.reset{
+  width: 100px;
+  height: 50px;
+  font-size: 22px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #1f3540;
+  color: #26ffcb;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.cell{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #0f1b21;
+    background-color: #1f3540;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.board{
+    height: 350px;
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+    
+}
+.cell img{
+    margin: 13px 13px;
+}
