@@ -54,3 +54,8 @@
 .cell img{
     margin: 13px 13px;
 }
+
+.title img{
+    padding: 10px 10px;
+    height: 70px;
+}
