@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-size: cover;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.shade{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+   
+}
+.navbar .logo{
+    flex: 1;
+    text-align: left;
+    margin-left: 100px;
+    font-weight: bold;
+    
+}
+.navbar .logo h1{
+    text-decoration: none;
+    color:red;
+    font-size: 40px;
+    
+}
+.navbar .icon{
+    flex: 1;
+    text-align: right;
+    margin-right: 80px;
+
+}
+.navbar .icon span{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#sign{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+}

@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #eee;
+    display: flex;
+   
+}
+.navbar .logo{
+    flex: 1;
+    text-align: left;
+    
+}
+.navbar .logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+    &:hover{
+        color: red;
+    }
+}
+.navbar .nav{
+    flex: 4;
+    text-align: center;
+}
+.navbar .nav a{
+    color: black;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    font-weight: 600;
+   
+    &:hover{
+        color: red;
+    }
+}
+
+ navbar .icon{
+    flex: 1;
+    text-align: right;
+}
+
+.navbar .icon i{
+    color: black;
+    margin-right: 18px;
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover{
+        color: red;
+    }
+
+}
+
+@media (max-width:763px){
+    .navbar .logo{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .navbar .nav{
+        flex-basis: 100%;
+        display: none;
+    }
+    .navbar .icon{
+        flex-basis: 100%;
+        text-align: center;
+    }
+}
+@media (max-width:370px){
+    .navbar .logo{
+        flex-basis: 100%;
+        text-align: left;
+    }
+    .navbar .icon{
+        flex-basis: 100%;
+       display: none;
+    }
+
+    .slide .banner{
+       font-size: 15px ;
+       
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        /* justify-content: space-around;
+        align-items: center;
+        width: 100%; */
+    }
+
+    .home .women{
+        flex-basis: 100%;
+        
+    }
+    .home .men{
+        flex-basis: 100%;
+    }
+    .home .child{
+        flex-basis: 100%;
+    }
+}
+
+.slide{
+    width: 100%;
+    background-color: #eee;
+    display: flex;
+   
+}
+.slide .banner{
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:black;
+   color: white;
+   height: 50px;
+   
+}
+.slide .banner span{
+    font-weight: bold;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-top: 10px;
+    height: 80vh;
+}
+.home .women{
+    flex-basis: 30%;
+   background-image: url(https://media.istockphoto.com/id/1307217813/photo/they-wouldnt-want-to-spend-their-day-any-other-way.jpg?s=612x612&w=0&k=20&c=1Us5Oo9tJ5n3lgO5V_aZ8ftqlfFPwo7JLdExcZ4d-bI=);
+   background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(25, 25, 25);
+    border-radius: 5px;
+}
+.home .women span{
+    color: rgb(218, 7, 7);
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+   align-items: center;
+    
+   
+}
+.btn{
+    padding: 8px 15px;
+    background-color: #eee;
+    color:black;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+   
+    &:hover{
+        background-color: red;
+        color: white;
+    }
+}
+.home .men{
+    flex-basis: 30%;
+   background-image: url(https://img.freepik.com/premium-photo/3d-men-holding-shopping-bags-walking-shopping-mall-black-friday-concept_943126-3936.jpg?ga=GA1.1.513828947.1716750042&semt=ais_user);
+   background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.home .men span{
+    color: rgb(218, 7, 7);
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+   align-items: center;
+    
+   
+}.home .child{
+    flex-basis: 30%;
+   background-image: url(https://img.freepik.com/premium-photo/photo-smiling-happy-family-shopping-time_1145931-27943.jpg?ga=GA1.1.513828947.1716750042&semt=ais_user);
+   background-size: cover;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.home .child span{
+    color: rgb(218, 7, 7);
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+   align-items: center;
+    
+   
+}
+.footer {
+    background-color: rgb(24, 23, 23);
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    border-radius: 2px;
+}
+
+.icon1 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+.icon1 span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.icon2 {
+    margin-top: 10px;
+}
+
+.icon2 i {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #555;
+    transition: color 0.3s ease;
+    
+}
+
+.icon2 i:hover {
+    color:rgb(7, 198, 182);
+}
+
+.content {
+    flex-basis: calc(20% - 20px);
+    margin-bottom: 20px;
+}
+
+.content span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.content a {
+    display: block;
+    color: #666;
+    text-decoration: none;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.content a:hover {
+    color: #007bff;
+}
+@media (max-width: 768px) {
+    .content {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        flex-basis: 100%;
+    }
+}
+
+
