@@ -44,7 +44,7 @@ body{
 }
 .navbar .icon span{
     color: white;
-    font-size: 20px;
+    font-size: 13px;
     cursor: pointer;
     padding: 10px;
 }
@@ -52,6 +52,79 @@ body{
 #sign{
     background-color: red;
     color: white;
+    border: 1px solid red;
+    width: 110px;
     border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
     padding: 8px;
+}
+#l{
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 110px;
+    padding: 8px;
+    border: 1px solid white; 
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.content {
+    text-align: center;
+    color: white;
+    padding: 150px 0;
+}
+
+.cont1 span {
+    font-size: 2rem;
+    font-weight: 900;
+    max-width: 640px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cont2 {
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.cont2 span {
+    font-size: 1.5rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form input {
+    padding: 15px;
+    width: 100%;
+    max-width: 450px;
+    font-size: 1rem;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px 0 0 2px;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.6) ;
+    color: white;
+}
+
+.form button {
+    padding: 15px 30px;
+    font-size: 1.625rem;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    border: 1px solid #f40612;
+    border-radius:5px ;
+}
+
+.form button:hover {
+    background-color: #f40612;
 }
