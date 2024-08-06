@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scolling</title>
+    <style>
+    header{
+        background-color: #63d1ea;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    
+    section{
+        display: grid;
+        grid-template-columns: 2fr 9fr;
+
+    }
+    nav,main{
+        margin-top: 20px;
+        margin-right: 12px;
+    }
+    
+    li{
+        margin-left: -20px;
+        list-style: none;
+        margin-bottom: 15px;
+        border: 1px solid black;
+        background-color: cadetblue;
+        padding: 10px;
+       
+    }
+    a{
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 600;
+        color: rgb(12, 12, 12);
+
+        &:hover{
+            color: red;
+        }
+    }
+    main{
+        overflow: scroll;
+        height: 400px;
+        /* border: 1px solid green; */
+        margin-left: 30px;
+        align-items: center;
+        text-align: justify;
+    }
+    h1{
+        font-weight: 600;
+        text-align: center;
+        font-size: 30px;
+    }
+    div img{
+        text-align: center;
+        height:250px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .picture{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+ .img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .img1 img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+ }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div> Fashion Store</div>
+        <div class="img1">
+            <a href="#home">
+                <img src="https://img.freepik.com/premium-photo/website-landing-page-restaurant_1269188-30256.jpg?ga=GA1.1.513828947.1716750042&semt=ais_hybrid" alt="" height="60" width="60">
+            </a>
+            <a href="#mens">
+                <img src="https://img.freepik.com/premium-photo/portrait-young-indian-couple-with-shopping-bags-isolated-white-background_466689-13018.jpg?ga=GA1.1.513828947.1716750042&semt=ais_hybrid" alt="" height="60" width="60">
+            </a>
+            <a href="#womens">
+                <img src="https://img.freepik.com/premium-photo/photo-smiling-happy-family-shopping-time_1145931-27943.jpg?ga=GA1.1.513828947.1716750042&semt=ais_hybrid" alt="" height="60" width="60">
+            </a>
+        </div>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#mens">Mens </a></li>
+                <li><a href="#womens">Womens</a></li>
+                <li><a href="#kid">Kids</a></li>
+                <li><a href="#other">other</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="home">
+                <H1>Home section</H1>
+                <div class="picture"><img src="https://img.freepik.com/premium-photo/website-landing-page-restaurant_1269188-30256.jpg?ga=GA1.1.513828947.1716750042&semt=ais_hybrid" alt="" height="250" width="350">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur ad
+                    
+                    <br>ipisicing elit. Explicabo, molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos incidunt reiciendis nihil id fugit, enim fuga iusto, iure iste in ipsum, exercitationem nam ratione doloribus nulla quas laboriosam. Praesentium, dolorem.
+                Magnam doloremque cum hic perspiciatis saepe dicta illum, nihil reprehenderit nemo ipsa atque reiciendis soluta minus quisquam? Praesentium dolorum voluptatem, debitis sit natus ad ex nemo, dicta itaque, sequi consectetur.
+                Fugiat soluta illo dolor veritatis! Quis, quidem. Numquam adipisci quisquam debitis! Illo laboriosam optio facere corporis quo similique quas, dolorem accusantium cupiditate, hic atque odio iste vel dolores nemo harum.
+                Aut ullam veniam necessitatibus totam
+                <br> voluptates, eveniet quia eos molestias consequatur incidunt sint assumenda molestiae sit distinctio provident doloremque, eaque laboriosam maiores voluptate eum illo similique repudiandae! Repellat, reiciendis possimus?
+                Doloribus pariatur assumenda, vitae nam at molli
+                
+                <br>tia odio ullam, quasi id quaerat quibusdam facilis modi voluptatibus labore unde eligendi aperiam soluta? Sit possimus corporis eligendi facere est.
+                Odit quo officia nisi ipsum? Beatae repellendus, eos molestiae officia fugit doloremque cumque mollitia dolores labore ducimus ex recusandae laborum libero hic, quas, maiores qui necessitatibus deserunt ipsa voluptate iste.
+                Est atque ipsa quo nostrum voluptatibus mollitia maxime possimus error, sed recusandae voluptates eum ab hic accusantium autem ea, soluta nesciunt? Nihil, quaerat omnis dolorem ea eligendi iure tenetur sapiente.
+                Debitis doloremque aliquid accusantium, perspiciatis nobis facere velit laborum praesentium tempore molestias modi eum a, sapiente, reprehenderit dignissimos quia quidem blanditiis pariatur. Explicabo magni blanditiis assumenda quae ad, hic aliquid. </p>
+                
+            </div>
+            <div id="mens">
+                <h1>Mens wears</h1>
+                <div class="picture"><img src="https://img.freepik.com/premium-photo/portrait-young-indian-couple-with-shopping-bags-isolated-white-background_466689-13018.jpg?ga=GA1.1.513828947.1716750042&semt=ais_hybrid" alt="" height="250" width="250">
+                </div>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ipsam at iusto magnam expedita cumque eos totam fuga molestias officia ea a, reiciendis, dignissimos excepturi eligendi, accusantium ipsum ex? Quaerat.
+                Quam veritatis doloremque non aperiam in culpa ipsum, laudantium facilis vero harum deleniti architecto suscipit, minima error totam fugit dolorum dicta hic dolor distinctio voluptate delectus officia. Dolor, vitae deleniti?
+                Perferendis est commodi, quia quidem cum labore impedit omnis, praesentium sit amet dolores laudantium cumque, modi quae doloremque laboriosam facilis aliquid ex similique non earum qui quam nulla dolore. Quasi?
+                Saepe debitis fuga similique impedit
+                
+                <br>quam, quidem molestias nam quaerat dignissimos, fugiat et temporibus unde, labore tempora non. Ad recusandae vel ipsum explicabo. Adipisci iste vero tempora distinctio cupiditate est!
+                Ex maxime, voluptatibus mollitia rerum, aliquam unde error earum eaque at sit placeat ullam voluptatum atque tempore! Et, in molestiae esse perferendis veritatis ipsa eveniet corporis itaque quos ab unde?
+                Accusamus sunt at nobis obcaecati corrupti suscipit doloremque. Adipisci natus temporibus minus tenetur ab tempore inventore veniam deserunt dicta, veritatis molestias delectus illo. Dolore, laborum corrupti! Labore expedita ullam eligendi.
+                Fugiat hic, unde cupiditate aut impedit illum commodi sit esse culpa? Soluta aspernatur consectetur numquam. Eius quaerat omnis eligendi? Cum natus blanditiis in possimus. Molestias numquam possimus pariatur error libero!
+                Magni quae doloremque, adipisci at po
+                
+                <br>ssimus voluptatibus necessitatibus delectus dicta dolores ad eius distinctio voluptatum voluptates! Quas explicabo atque iste hic ea, esse a eligendi necessitatibus voluptas doloribus, aperiam dignissimos?
+                Fuga laborum molestias tempora, quasi nemo corrupti culpa veniam modi soluta iste beatae obcaecati impedit cupiditate officia in dolores unde facilis quaerat. Molestias non illo aut vero, odit fugiat perferendis?
+                Beatae officiis natus laboriosam de
+                
+                <br>bitis quo earum ducimus numquam unde dicta ex fugit maxime molestiae illo pariatur hic perspiciatis ipsa accusamus similique, esse ratione quis perferendis? Corporis eveniet obcaecati cumque?
+                Soluta error nemo quis quas omnis in ducimus, optio velit iure, labore eveniet sequi dignissimos praesentium? Officia optio ab cupiditate quod excepturi eos amet, reiciendis eligendi recusandae animi voluptas velit.
+                Cum, ipsam assumenda maxime voluptates consequatur ipsa quos deserunt velit, nisi natus mollitia obcaecati eaque excepturi sint porro cumque sapiente autem laborum nemo iure accusantium delectus! Obcaecati adipisci voluptatibus explicabo?
+                Eum labore inventore doloribus voluptas dolore earum delectus reiciendis accusantium hic asperiores. Nemo quidem eveniet dolor neque recusandae nostrum nihil autem, vero facilis est sunt, quibusdam magni necessitatibus voluptas esse!
+                Unde id obcaecati explicabo illum eum distinctio ex quas, blanditiis molestiae dicta qui voluptatum eligendi deserunt, voluptate repellat? Quis quidem ipsa sit ratione ab odio ducimus, explicabo fuga vitae excepturi.
+                Saepe est natus magni alias unde eligendi nemo omnis autem suscipit, quidem sunt, id provident excepturi veritatis eum quis voluptate animi iste dolor ab! Repellendus blanditiis quisquam pariatur exercitationem consequatur!</p>
+                 
+            </div>
+            <div id="womens">
+                <h1>Womens wears</h1>
+                <div  class="picture"> <img src="https://img.freepik.com/free-photo/family-returning-from-shopping-carrying-shopping-bags_259150-57102.jpg?ga=GA1.1.513828947.1716750042&semt=ais_hybrid" alt="" height="250" width="250">
+                </div>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti tenetur dolor voluptate veritatis, ex reiciendis earum! Nulla in tempore porro exercitationem, amet, error aliquid consequuntur, nostrum dolores magnam velit neque.
+                Distinctio, atque! Officiis sed accusamus consequuntur dignissimos necessitatibus eius, laudantium, dolore possimus architecto enim doloribus veniam dolores quas laborum praesentium reprehenderit dolor. Illo deserunt natus vel dicta temporibus nulla aliquam.
+                Mollitia optio magni architecto dolor,
+                
+                <br>recusandae iure autem iusto ullam numquam excepturi vero quam corrupti delectus blanditiis facere! Deserunt id eligendi perferendis veniam nesciunt ipsa ipsam facilis fugit accusantium dolore?
+                Error suscipit ad blanditiis in, culpa commodi quos optio dolor sed dolore est sunt! Nemo delectus beatae dolorum itaque deserunt a mollitia, facilis minima maxime nihil iste laborum nisi aperiam!
+                Voluptate rerum at ullam culpa laudantium illo aperiam ea. Fugit molestiae mollitia numquam ipsa consequuntur odit nobis cumque sed ea assumenda. Consectetur ipsum nostrum obcaecati, eos dolore cupiditate doloribus optio!
+                Fuga deserunt dignissimos et, nobis aliquam natus odio nostrum laborum maiores unde tempore impedit. Provident, ea esse! Rem culpa reprehenderit veritatis adipisci debitis nostrum alias eius animi, officiis nobis magnam!</p>
+                
+            </div>
+            <div id="kid">
+                <h1>kids wears</h1>
+                <div  class="picture"><img src="https://img.freepik.com/free-photo/girl-sunglasses-posing-with-shopping-bags_23-2147825644.jpg?ga=GA1.1.513828947.1716750042&semt=ais_hybrid" alt="" height="250" width="250">
+                </div>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi nam quibusdam laborum distinctio eos corporis dolorum repellendus consectetur at labore, amet illum autem rem temporibus fugiat, aliquam iste accusantium quae?
+                Sint suscipit, asperiores quae tempore id, et iste quaerat quo, optio quisquam laudantium? Debitis rerum laboriosam necessitatibus reprehenderit consectetur unde corrupti ducimus hic libero. Quaerat quae cumque neque quia dolores?
+                Ratione voluptate est nisi maxime possimus exercitationem porro consequuntur asperiores, voluptatum eum quas odit. Veniam iure adipisci, facilis ab corrupti sed sint rerum explicabo, aspernatur quo itaque eaque quas ullam.
+                Quam totam ut blanditiis eveniet explicabo placeat, odio ducimus neque sint non voluptatem architecto nam numquam accusantium possimus nobis alias pariatur dolores iure! Tenetur adipisci odit enim aut laudantium quia.
+                Rerum a veritatis aspernatur autem ratione tenetur expedita officia possimus commodi blanditiis provident cum iste quo, minima, labore odio eligendi, omnis eveniet! Eum temporibus eligendi architecto, pariatur optio quibusdam! Voluptatem.
+                Vel corporis cum ut labore accusamus cumque recusandae, aliquam rerum nemo esse eveniet officiis quo magnam numquam, quas tempore, officia atque nostrum reiciendis dicta! Itaque nostrum fuga iusto ex eos?
+                Repellendus, nesciunt iusto impedit 
+                <br>
+
+
+                voluptatibus neque fuga expedita cum. Ullam rerum modi itaque! Quae est autem qui illum, quam animi quas, ex non tempora eius eaque voluptatibus totam, modi vero.
+                Iusto necessitatibus quibusdam magnam, officiis minima vero eligendi ipsam dolore voluptatem ea aliquam amet? Fuga quasi, dolorum amet officia quis sequi maxime neque voluptatem omnis ex consequatur, est perferendis libero!
+                Incidunt autem quos aut, cupiditate doloremque aliquam mollitia blanditiis dolorum? Ad tempore eaque nobis qui voluptatum sequi culpa excepturi dolore corrupti doloribus ullam, error ex dignissimos! Impedit illum quas id.
+                Totam excepturi fugit minima nesciunt similique explicabo? Asperiores sapiente aut veritatis neque excepturi doloribus illo, sunt tempora necessitatibus, deserunt consequuntur voluptatem perferendis enim officia, possimus fuga. Quidem expedita possimus quisquam!
+                Saepe nobis exercitationem necessitatibus dignissimos, amet omnis vero excepturi quidem tenetur, earum, voluptas consequatur distinctio iure! Necessitatibus, praesentium in quasi repudiandae earum provident. Ducimus fuga et eos maiores nihil esse?
+                Cupiditate, fuga blanditiis fugit neque, numquam unde earum voluptas deserunt corrupti ipsam minus provident. Exercitationem adipisci nulla, quis molestiae accusantium repellat qui harum reiciendis soluta! Delectus accusantium quod pariatur suscipit?
+                Dolor, amet. Assumenda modi odio unde dolores, nisi consequuntur ipsam necessitatibus culpa veniam cum. Necessitatibus commodi fugit quibusdam sunt maxime ab enim aut. Illum quos nostrum at harum. Voluptate, quia.
+                Quidem suscipit debitis adipisci, ratione eveniet provident culpa unde, molestias facere, nisi dolorem. Officia doloremque et quos, ab saepe voluptas. Magni ipsam recusandae quis! Quae atque vero nihil tempore officia.</p>
+                
+            </div>
+            <div id="other">
+                <h1>other</h1>
+                <div  class="picture">  <img src="https://img.freepik.com/premium-photo/photo-smiling-happy-family-shopping-time_1145931-27943.jpg?ga=GA1.1.513828947.1716750042&semt=ais_hybrid" alt="" height="250" width="250">
+                </div>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus magni voluptatem tempore illum distinctio reprehenderit omnis quia quisquam possimus reiciendis labore laudantium incidunt, esse nesciunt veritatis dolores numquam magnam doloribus.
+                Harum dolor nam quis nobis amet a vitae ducimus ipsum! Earum corporis dolore incidunt. Laborum nihil, amet similique odio nemo velit eaque praesentium! Rem expedita perspiciatis quos, nesciunt tenetur a.
+                Beatae facilis, architecto libero quas distinctio vero doloribus unde minima molestias obcaecati eveniet perferendis sed at totam dolorum fugiat nostrum incidunt vitae inventore saepe error explicabo. Sint commodi aliquid eligendi.
+                Nesciunt nemo quas vero dolorum <br>
+                
+                
+                consequuntur quo, fugiat beatae laboriosam sint. Perspiciatis, recusandae earum impedit ratione officiis, magnam similique voluptates adipisci quibusdam saepe numquam doloribus rem, deleniti minus iusto ut.
+                Aut, magnam commodi eius blanditiis, delectus voluptatem molestias, cumque libero ad explicabo recusandae rem tempore earum quis. Optio enim accusantium dignissimos, vero nam inventore exercitationem, tenetur nobis officia saepe alias.
+                Velit reiciendis tempore ut eaque, alias amet veritatis quod laudantium at sunt necessitatibus architecto, vel praesentium voluptate commodi! Sapiente unde fugiat beatae facilis molestias ab magnam, laboriosam officiis ipsam tempora.
+                Ipsum, harum pariatur. A dignissimos facilis fuga voluptatibus vitae sint, aspernatur minus quaerat provident quod recusandae incidunt eos accusantium esse debitis enim eveniet quasi quo, facere voluptate ab ipsum deserunt!
+                Laboriosam numquam nobis asperiores neque saepe incidunt est suscipit laudantium fugiat officiis! Nihil doloremque magnam, dolore eaque, temporibus mollitia quae odio alias quidem adipisci exercitationem, culpa id optio modi dignissimos.
+                Repellendus qui exercitationem distinctio commodi deleniti nisi consequatur quasi veniam, natus odit enim libero veritatis itaque modi animi dolorem, sit quos eligendi sed cum? Dolorum quia adipisci incidunt. Laborum, soluta.
+                Soluta saepe officiis quos quisquam debitis, iure reiciendis ipsum exercitationem in quo necessitatibus ad, non corrupti officia iusto molestiae repudiandae voluptatem quidem dolores, atque beatae dolorum doloribus distinctio. Ea, magnam.</p>
+               
+            </div>
+        </main>
+    </section>
+</body>
+</html>
