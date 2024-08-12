@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       main{
+        display: flex;
+       }
+       .card{
+        border: 1px solid black;
+        margin-right: 10px;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 2px 2px 4px black;
+       }
+       .card h2{
+        font-size: 25px;
+        font-weight: 600;
+       }
+        .card:target{
+            font-size:25px;
+            background-color:#eee;
+          
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#bengaluru">Bengaluru</a>
+        <a href="#delhi">Delhi</a>
+        <a href="#mumbai">Mumbai</a>
+    </nav>
+    <main>
+        <div class="card" id="bengaluru">
+             <h2>Bengaluru</h2>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium in, incidunt sed beatae, iste at est tempora cumque dicta expedita modi quis exercitationem corporis amet? Veritatis quasi soluta adipisci nemo?</p>
+        </div>
+        <div class="card" id="delhi">
+            <h2>Delhi</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium in, incidunt sed beatae, iste at est tempora cumque dicta expedita modi quis exercitationem corporis amet? Veritatis quasi soluta adipisci nemo?</p>
+       </div>
+       <div class="card" id="mumbai">
+        <h2>Mumbai</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium in, incidunt sed beatae, iste at est tempora cumque dicta expedita modi quis exercitationem corporis amet? Veritatis quasi soluta adipisci nemo?</p>
+   </div>
+    </main>
+</body>
+</html>

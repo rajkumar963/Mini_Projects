@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #2a2929;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo span{
+    margin-right: 12px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search span{
+    margin-right: 12px;
+    cursor: pointer;
+    padding: 10px;
+}
+ .search1{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 1px solid #575656;
+     border-radius: 25px;
+    width: 450px;
+    height: 35px;
+    cursor: pointer;
+    
+ }
+ .mic{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 1px solid #575656;
+     margin-left: 10px;
+     border-radius: 25px;
+     width: 33px;
+     height: 33px;
+    background-color: #454343;
+   
+
+    &:hover{
+        background-color: #575656;
+    }
+     
+ }
+
+ .profile{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .profile a{
+     margin-right: 12px;
+     cursor: pointer;
+     padding: 8px;
+     color: #eee;
+     font-size: 16px;
+ }
+ .pro{
+     border: 1px solid #6a6767;
+     border-radius: 50%;
+     cursor: pointer;
+     height: 17px;
+     width: 17px;
+     justify-content: center;
+     align-items: center;
+     background-color: #575656;
+
+     &:hover{
+         background-color: #6a6767;
+     }
+ }
