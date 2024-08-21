@@ -7,6 +7,15 @@ body{
     text-decoration: none;
 
 }
+.allcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    min-height: 100vh;
+
+}
 
 .card{
     width: 300px;

@@ -142,9 +142,11 @@ body{
 .home{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-top: 10px;
-    margin-top: 10px;
+    margin: 10px;
     height: 80vh;
+    
 }
 .home .women{
     flex-basis: 30%;
@@ -157,29 +159,34 @@ body{
     align-items: center;
     border: 1px solid rgb(25, 25, 25);
     border-radius: 5px;
+    cursor: pointer;
+    
+    &:hover{
+       opacity: 0.8;
+    }
 }
 .home .women span{
-    color: rgb(218, 7, 7);
+    color: rgb(244, 239, 239);
     font-size: 40px;
     font-weight: bold;
     justify-content: center;
    align-items: center;
+   position: relative;
     
    
 }
+
 .btn{
     padding: 8px 15px;
     background-color: #eee;
     color:black;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 150px;
     font-size: 15px;
     font-weight: bold;
-   
-    &:hover{
-        background-color: red;
-        color: white;
-    }
+    cursor: pointer;
+   border: none;
+   z-index: 1000;
 }
 .home .men{
     flex-basis: 30%;
@@ -192,13 +199,19 @@ body{
     align-items: center;
     border: 1px solid black;
     border-radius: 5px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8;
+     }
 }
 .home .men span{
-    color: rgb(218, 7, 7);
+    color: white;
     font-size: 40px;
     font-weight: bold;
     justify-content: center;
    align-items: center;
+   z-index: 1000;
     
    
 }.home .child{
@@ -212,16 +225,82 @@ body{
     align-items: center;
     border: 1px solid black;
     border-radius: 5px;
+    cursor: pointer;
     
+    &:hover{
+        opacity: 0.8;
+     }
 }
 .home .child span{
-    color: rgb(218, 7, 7);
+    color: white;
     font-size: 40px;
     font-weight: bold;
     justify-content: center;
    align-items: center;
     
    
+}
+
+.allcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    min-height: 100vh;
+
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    padding-left : 15px;
+    padding-top: 10px;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.title{
+    margin-left: 15px;
+    display: flex;
+    margin-bottom: 7px;
+}
+.sub-title{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    
+}
+
+.rating{
+    margin-left: 15px;
+}
+.rating i{
+    color: #FFD43B;
+    font-size: 20px;
+}
+
+.c-body{
+    margin-top: 10px;
+    line-height: 20px;
+    margin-bottom: 25px;
+    color: rgb(102, 99, 99);
+
+}
+.c-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: rgb(95, 92, 92);
 }
 .footer {
     background-color: rgb(24, 23, 23);
