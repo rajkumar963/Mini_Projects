@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form style="text-align: center;">
+        <h1>Google</h1>
+            <input type="text" name="searchBox" size="50" list="subjects">
+            <datalist id="subjects">
+                <option >Mumbai</option>
+                <option >Pune</option>
+                <option >Bengaluru</option>
+                <option >Ranchi</option>
+                <option >Delhi</option>
+                <option >Hyderbad</option>
+                <option >Chennai</option>
+            </datalist>
+            <p >
+                <button>search</button>
+            </p>
+    </form> -->
+
+    <form action="">
+      <!-- TEST:  <input type="text" pattern="colou.?.r" placeholder="color/colour" name="txttest"> -->
+      <!-- <input type="text" pattern="(^\+91[0-9]{10}&)|(^\+91\d{3}-\d{4}-\d{4})"  name="txttest"> -->
+      <!-- <input type="text" pattern="\+\(\d{1}\)\(\d{3}\) \d{3}-\d{4}" > -->
+         
+      <!-- <input type="text" pattern="\+\(\d{44}\)\(\d{2}\)\d{4} \d{4}" > -->
+      <!-- <input type="text" pattern="\D{SBIN}\d{0}\d{6}" name="txttest"> -->
+      <!-- <input type="text" pattern="\w{4,15}" name="txttest"> -->
+      <input type="text" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{4,15}" name="txttest">
+      <button>submit</button>
+    </form>
+
+</body>
+</html>
