@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ea{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form class="ea">
+        <div>
+            <figure>
+                <img src="https://cdn.pixabay.com/photo/2016/04/01/12/16/car-1300629_1280.png" alt="" height="200" width="300" title="cars">
+                <figcaption>
+                    <input type="color" name="txtcolor">
+                    <input type="color" name="txtcolor" value="#ff0034">
+                    <input type="color" name="txtcolor" value="#0839ff">
+                </figcaption><br>
+                <button>Submit</button>
+            </figure>
+        </div>
+
+    </form>
+    <form action="">
+        Departure: <input type="date" name="txtdate" min="2024-09-02" max="2024-10-02"><br><br>
+        DateTime:<input type="datetime-local" name="txtdate" ><br><br>
+        Month: <input type="month" name="txtdate" ><br><br>
+        Time: <input type="time" name="txtdate" ><br><br>
+        Week: <input type="week" name="txtdate" ><br><br>
+        <button>Submit</button>
+    </form> <br><br>
+    <form action="">
+      Select file:  <input type="file" name="txtfile" accept=".png,.jpg" multiple="3">
+    </form><br><br>
+    <form action="">
+        <h2>choose tour fav city</h2>
+        <input type="radio" name="web" value="Bengaluru" checked><label for="">Bengaluru</label>
+        <input type="radio" name="web" value="Mumbai"><label for="">Mumbai</label>
+        <input type="radio" name="web" value="Delhi"><label for="">Delhi</label>
+        <input type="radio" name="web" value="Ranchi" disabled><label for="">Ranchi</label> <br><br>
+
+        <h2>your Age</h2>
+        <input type="checkbox" name="web" value="5 - 10"><label for="">5 - 10</label>
+        <input type="checkbox" name="web" value="11 - 15"><label for="">11 - 15</label>
+        <input type="checkbox" name="web" value="16 - 20"><label for="">16 - 20</label>
+        <input type="checkbox" name="web" value="21+"><label for="">21+</label> <br><br>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>
